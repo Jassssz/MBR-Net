@@ -103,7 +103,7 @@ loss_metric_plot(history, folder_name + 'graph/' + file_name, 'MAE')
 ```
 
 ## Real-time prediction
-API gateways and a front-end web interface were developed for MBR-Net to facilitate the generation of ML model predictions based on actual WWTP data in real time [(demonstration video)](./assets/MBR-Net_supplementary_video_1.mp4).
+API gateways and a front-end web interface were developed for MBR-Net to facilitate the generation of ML model predictions based on actual WWTP data in real time [(demonstration video)](https://www.dropbox.com/scl/fi/476fbk2fo8flaa12f5q03/MBR-Net_supplementary_video_1.mp4?rlkey=2446e2yo3lak66i6d8kuv1g32&st=e8y0yojw&dl=0).
 
 ## License
 This project is licensed under [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]. See the `LICENSE` file for more information. 
