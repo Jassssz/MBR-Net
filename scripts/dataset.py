@@ -147,7 +147,7 @@ def shuffle_apply_scaler(df, perm_df, param_df, time_df):
 
     #scaler for X2
     scaler_Param = MinMaxScaler()
-    scaler_Param.fit(param_df)
+    scaler_Param.fit(np.array(param_df))
     X2_arr_train_scaled = scaler_Param.transform(X2_arr_train.reshape(-1,param_df.shape[1])).reshape(X2_arr_train.shape[0], X2_arr_train.shape[1], X2_arr_train.shape[2])
     X2_arr_valid_scaled = scaler_Param.transform(X2_arr_valid.reshape(-1,param_df.shape[1])).reshape(X2_arr_valid.shape[0], X2_arr_valid.shape[1], X2_arr_valid.shape[2])
     X2_arr_test_scaled = scaler_Param.transform(X2_arr_test.reshape(-1,param_df.shape[1])).reshape(X2_arr_test.shape[0], X2_arr_test.shape[1], X2_arr_test.shape[2])

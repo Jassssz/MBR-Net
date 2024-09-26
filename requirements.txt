@@ -1,0 +1,9 @@
+pandas==2.2.2
+openpyxl==3.1.5
+tensorflow==2.11.0
+scikit-learn==1.5.1
+matplotlib
+keras==2.11.0
+numpy==1.26.4
+ipykernel==6.29.5
+ipython==8.18.1
