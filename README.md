@@ -1,7 +1,7 @@
 # [MBR-Net](https://github.com/Jassssz/MBR-Net)
 ![](./assets/fig1.png)
 
-This GitHub repository contains codes of the machine learning model `MBR-Net` for predicting membrane fouling of membrane bioreactor (MBR) wastewater treatment plants (WWTPs). The ML model was trained using an extensive data set obtained from full-scale wastewater treatment plants.
+This GitHub repository contains codes of the machine learning model `MBR-Net` for predicting membrane fouling of membrane bioreactor (MBR) wastewater treatment plants (WWTPs) in the following paper: [Predicting Membrane Fouling of Submerged Membrane Bioreactor Wastewater Treatment Plants Using Machine Learning](https://pubs.acs.org/doi/10.1021/acs.est.4c12835). The ML model was trained using an extensive data set obtained from full-scale wastewater treatment plants.
 
 ## Installation
 ### Dependencies
